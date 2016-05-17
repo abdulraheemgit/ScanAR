@@ -1,15 +1,12 @@
 "# ScanAR"
 
-ScanAR is a security framwork for web application development. This will support both client side and server side security implementation as nodejs can support both.
+ScanAR is a security framework for web application development. This will support both client side and server side security implementation.
 
-features
+Features
 
     -XSS detection engine
-
     -SQL injection detection engine
-
     -Input sanitization
-
     -HTML escaping funtionality
 
 usage
