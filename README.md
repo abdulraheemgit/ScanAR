@@ -14,8 +14,4 @@ features
 
 usage
 
-  npm install scan-a-r
-
-  after installing the package add the below code within scripts in your package.json
-
-  ![Alt text](./images/scan.jpg? raw=true "Optional Title")
+    npm install scan-a-r
