@@ -1,12 +1,11 @@
 {
   "name": "scan-a-r",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Security Framework for Web Application Development",
   "main": "src/index.js",
   "scripts": {
-    "preinstall": "browserify main.js -o bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "echo \"pre start\" "
+    "preinstall": "npm install broserify",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
